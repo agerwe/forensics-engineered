@@ -1,0 +1,116 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #cf9f52;
+    background-image: radial-gradient(circle, #cf9f52, #cb9643);
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+.contact-row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-row a {
+    text-decoration: none;
+}
+
+.contact-row a,
+.contact-row i {
+    color: black;
+    font-size: 18px;
+}
+
+.contact-row a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 35px;
+        padding-bottom: 75px;
+    }
+
+    h2 {
+        font-size: 60px;
+        padding-bottom: 100px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    .contact-row {
+        padding-bottom: 20px;
+    }
+
+    .contact-row a,
+    .contact-row i {
+        font-size: 20px;
+    }
+
+    .contact-row i {
+        margin-top: 6px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 40px;
+        padding-top: 75px;
+        padding-bottom: 100px;
+    }
+    
+    h2 {
+        font-size: 80px;
+        padding-bottom: 50px;
+    }
+    
+    h3 {
+        font-size: 40px;
+    }
+    
+    .contact-row {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .contact-row a,
+    .contact-row i {
+        font-size: 20px;
+    }
+    
+    .contact-row i {
+        margin-top: 6px;
+    }
+}
